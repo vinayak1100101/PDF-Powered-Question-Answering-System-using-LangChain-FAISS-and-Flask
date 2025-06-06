@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.output-container {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 30px 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: slideUp 0.7s ease-out;
+}
+
+.output-container h2 {
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+.output-container p {
+    font-size: 18px;
+    color: #34495e;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
