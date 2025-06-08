@@ -1,6 +1,5 @@
-# Virtual environments
+
 venv/
 env/
 
-# Environment variable file (contains secrets)
 .env
